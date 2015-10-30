@@ -1,0 +1,118 @@
+body, html {
+	margin: 1em;
+	font-family: "Open Sans", sans-serif;
+	background: #222;
+}
+
+@media all and (min-width: 768px){
+	body, html {
+		margin: 2em;
+	}
+	button {
+		max-width: 300px;
+	}
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 700;
+	border: 4px solid #FA6619;
+	color: white;
+	padding: 0.5em 1em;
+	display: block;
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto 2em;
+}
+h1 span {
+	background: #12AA8A;
+	display: inline-block;
+	padding: 0.1em 0.5em;
+	color: white;
+}
+
+form {
+	display: block;
+	width: 100%;
+}
+
+label {
+	color: #999;
+	display: block;
+	border-bottom: 2px dashed #555;
+	margin-bottom: 1em;
+	padding: 0 0 1em;
+	width: 100%;
+}
+
+textarea {
+	display: block;
+	outline: 0;
+	border: 0;
+	padding: 1em;
+	width: 100%;
+	margin-bottom: 2em;
+
+}
+
+footer {
+	text-align: center;
+	color: #555;
+	/*text-transform: uppercase;*/
+	padding: 5em 1em 2em;
+}
+
+footer a {
+	color: #12AA8A;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+
+#jsonField {
+	border: 5px solid #FA6619;
+}
+
+#csonField {
+	border: 5px solid #12AA8A;
+}
+
+button {
+	display: block;
+
+	width: 100%;
+	outline: 0;
+	background: #FA6619;
+	color: white;
+	padding: 1em 0;
+	margin: 0 0 1em auto;
+	border: 4px solid #FA6619;
+	transition: all 0.3s ease-in;
+}
+
+button:hover {
+	background: #222;
+	border: 4px solid #FA6619;
+	cursor: pointer;
+}
+
+.button-to-json {
+	background: #12AA8A;
+	border-color: #12AA8A;
+}
+
+.button-to-json:hover {
+	border-color: #12AA8A;
+}

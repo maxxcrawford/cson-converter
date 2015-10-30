@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CSON Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Put HTML Here -->
+    <main>
+        <h1><span>CSON</span> Converter</h1>
+        <form>
+            <label>JSON</label>
+            <textarea rows="5" placeholder="Paste JSON here." data-lang="json"></textarea>
+            <button class="button-to-cson" data-lang="json">Convert to CSON</button>
+            <label>CSON</label>
+            <textarea rows="5" placeholder="Paste CSON here." data-lang="cson"></textarea>
+            <button class="button-to-json" data-lang="cson">Convert to JSON</button>
+        </form>
+    </main>
+    <footer>
+        Created by <a href="//twitter.com/woodenwarship">@woodenwarship</a> and <a href="//twitter.com/brokun_musheen">@brokun_musheen</a>
+    </footer>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <!-- <script async src="require.min.js"></script>
+    <script src="cson.js"></script> -->
+    <script src="app.js"></script>
+</body>
+
+</html>
